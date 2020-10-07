@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/empoloyees",
+      "handler": "empoloyee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/empoloyees/count",
+      "handler": "empoloyee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/empoloyees/:id",
+      "handler": "empoloyee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/empoloyees",
+      "handler": "empoloyee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/empoloyees/:id",
+      "handler": "empoloyee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/empoloyees/:id",
+      "handler": "empoloyee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
