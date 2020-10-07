@@ -9,4 +9,8 @@ Passos para inicializar:
 * Inicie
  ```yarn develop```
  
+ * Para adicionar produtos, deixei o arquivo do insomnia em `config/insomnia`, é só importar pro postman ou insomnia para adição dos produtos e categorias. 
+ 
+ 
+ 
   
